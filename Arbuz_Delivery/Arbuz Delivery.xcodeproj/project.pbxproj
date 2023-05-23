@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B219D4B12A177F8600E622D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219D4B02A177F8600E622D8 /* AppDelegate.swift */; };
+		B219D4B32A177F8600E622D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219D4B22A177F8600E622D8 /* SceneDelegate.swift */; };
+		B219D4B52A177F8600E622D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219D4B42A177F8600E622D8 /* LoginViewController.swift */; };
+		B219D4BA2A177F8C00E622D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B219D4B92A177F8C00E622D8 /* Assets.xcassets */; };
+		B219D4BD2A177F8C00E622D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B219D4BB2A177F8C00E622D8 /* LaunchScreen.storyboard */; };
+		B219D4C62A17849C00E622D8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B219D4C52A17849C00E622D8 /* SnapKit */; };
+		B219D4C92A17860E00E622D8 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219D4C82A17860E00E622D8 /* UITextField+Ext.swift */; };
+		B219D4D52A17AA2700E622D8 /* NameRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219D4D42A17AA2700E622D8 /* NameRegisterViewController.swift */; };
+		B21E19B22A17C3A80014827B /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19B12A17C3A80014827B /* UIViewController+Ext.swift */; };
+		B21E19B42A17C9F00014827B /* UsernameRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19B32A17C9F00014827B /* UsernameRegisterViewController.swift */; };
+		B21E19B62A17E0E70014827B /* PasswordRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19B52A17E0E70014827B /* PasswordRegisterViewController.swift */; };
+		B21E19B82A17E4EC0014827B /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19B72A17E4EC0014827B /* PasswordValidator.swift */; };
+		B21E19BC2A18EC0A0014827B /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19BB2A18EC0A0014827B /* UIButton+Ext.swift */; };
+		B21E19BE2A18F2780014827B /* PasswordState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19BD2A18F2780014827B /* PasswordState.swift */; };
+		B21E19C12A192B830014827B /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19C02A192B830014827B /* ProductsViewController.swift */; };
+		B21E19C62A1A1EFB0014827B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19C52A1A1EFB0014827B /* User.swift */; };
+		B21E19CA2A1A497F0014827B /* UIApplication+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19C92A1A497E0014827B /* UIApplication+Ext.swift */; };
+		B21E19CD2A1A87BC0014827B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19CC2A1A87BC0014827B /* OnboardingViewController.swift */; };
+		B21E19CF2A1A8A430014827B /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19CE2A1A8A430014827B /* Onboarding.swift */; };
+		B21E19D12A1A8B3F0014827B /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19D02A1A8B3F0014827B /* OnboardingModel.swift */; };
+		B21E19D72A1A90B10014827B /* NSObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19D62A1A90B10014827B /* NSObject+Ext.swift */; };
+		B21E19D92A1A92190014827B /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19D82A1A92190014827B /* OnboardingCell.swift */; };
+		B21E19DB2A1B68FE0014827B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19DA2A1B68FE0014827B /* Product.swift */; };
+		B21E19DD2A1B6B020014827B /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19DC2A1B6B020014827B /* ProductsModel.swift */; };
+		B21E19DF2A1B70530014827B /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19DE2A1B70530014827B /* ProductsCell.swift */; };
+		B21E19E12A1BD0BF0014827B /* ProductsCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E19E02A1BD0BE0014827B /* ProductsCellHeader.swift */; };
+		B21E19ED2A1BDC440014827B /* pear.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19E32A1BDC440014827B /* pear.jpeg */; };
+		B21E19EE2A1BDC440014827B /* plum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19E42A1BDC440014827B /* plum.jpeg */; };
+		B21E19EF2A1BDC440014827B /* apple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19E52A1BDC440014827B /* apple.jpeg */; };
+		B21E19F02A1BDC440014827B /* avocado.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19E62A1BDC440014827B /* avocado.jpeg */; };
+		B21E19F12A1BDC440014827B /* cherry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19E72A1BDC440014827B /* cherry.jpeg */; };
+		B21E19F22A1BDC440014827B /* pineapple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19E82A1BDC440014827B /* pineapple.jpeg */; };
+		B21E19F32A1BDC440014827B /* banan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19E92A1BDC440014827B /* banan.jpeg */; };
+		B21E19F42A1BDC440014827B /* blueberry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19EA2A1BDC440014827B /* blueberry.jpeg */; };
+		B21E19F52A1BDC440014827B /* grape.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19EB2A1BDC440014827B /* grape.jpeg */; };
+		B21E19F62A1BDC440014827B /* guava.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19EC2A1BDC440014827B /* guava.jpeg */; };
+		B21E1A022A1BE4320014827B /* radish.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19F82A1BE4320014827B /* radish.jpeg */; };
+		B21E1A032A1BE4320014827B /* eggplant.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19F92A1BE4320014827B /* eggplant.jpeg */; };
+		B21E1A042A1BE4320014827B /* mushroom.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19FA2A1BE4320014827B /* mushroom.jpeg */; };
+		B21E1A052A1BE4320014827B /* cucumber.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19FB2A1BE4320014827B /* cucumber.jpeg */; };
+		B21E1A062A1BE4320014827B /* carrot.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19FC2A1BE4320014827B /* carrot.jpeg */; };
+		B21E1A072A1BE4320014827B /* artichoke.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19FD2A1BE4320014827B /* artichoke.jpeg */; };
+		B21E1A082A1BE4320014827B /* tomato.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19FE2A1BE4320014827B /* tomato.jpeg */; };
+		B21E1A092A1BE4320014827B /* garlic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E19FF2A1BE4320014827B /* garlic.jpeg */; };
+		B21E1A0A2A1BE4320014827B /* cabbage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A002A1BE4320014827B /* cabbage.jpeg */; };
+		B21E1A0B2A1BE4320014827B /* potato.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A012A1BE4320014827B /* potato.jpeg */; };
+		B21E1A172A1C7FEF0014827B /* yogurt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A0D2A1C7FEE0014827B /* yogurt.jpeg */; };
+		B21E1A182A1C7FEF0014827B /* coconutmilk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A0E2A1C7FEE0014827B /* coconutmilk.jpeg */; };
+		B21E1A192A1C7FEF0014827B /* softcheese.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A0F2A1C7FEE0014827B /* softcheese.jpeg */; };
+		B21E1A1A2A1C7FEF0014827B /* regularmilk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A102A1C7FEE0014827B /* regularmilk.jpeg */; };
+		B21E1A1B2A1C7FEF0014827B /* regularcheese.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A112A1C7FEE0014827B /* regularcheese.jpeg */; };
+		B21E1A1C2A1C7FEF0014827B /* almondmilk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A122A1C7FEE0014827B /* almondmilk.jpeg */; };
+		B21E1A1D2A1C7FEF0014827B /* butter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A132A1C7FEE0014827B /* butter.jpeg */; };
+		B21E1A1E2A1C7FEF0014827B /* ricemilk.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A142A1C7FEE0014827B /* ricemilk.jpeg */; };
+		B21E1A1F2A1C7FEF0014827B /* curd.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A152A1C7FEE0014827B /* curd.jpeg */; };
+		B21E1A202A1C7FEF0014827B /* sourcream.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B21E1A162A1C7FEE0014827B /* sourcream.jpeg */; };
+		B21E1A222A1C886E0014827B /* UITabBarController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E1A212A1C886E0014827B /* UITabBarController+Ext.swift */; };
+		B21E1A262A1C8A5E0014827B /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E1A252A1C8A5E0014827B /* CartViewController.swift */; };
+		B21E1A282A1CB80D0014827B /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E1A272A1CB80D0014827B /* CartCell.swift */; };
+		B2977EEA2A1D25D70052EAE8 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2977EE92A1D25D70052EAE8 /* OrderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B219D4AD2A177F8600E622D8 /* Arbuz Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arbuz Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B219D4B02A177F8600E622D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B219D4B22A177F8600E622D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B219D4B42A177F8600E622D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B219D4B92A177F8C00E622D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B219D4BC2A177F8C00E622D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B219D4BE2A177F8C00E622D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B219D4C82A17860E00E622D8 /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		B219D4D42A17AA2700E622D8 /* NameRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameRegisterViewController.swift; sourceTree = "<group>"; };
+		B21E19B12A17C3A80014827B /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		B21E19B32A17C9F00014827B /* UsernameRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameRegisterViewController.swift; sourceTree = "<group>"; };
+		B21E19B52A17E0E70014827B /* PasswordRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRegisterViewController.swift; sourceTree = "<group>"; };
+		B21E19B72A17E4EC0014827B /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		B21E19BB2A18EC0A0014827B /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		B21E19BD2A18F2780014827B /* PasswordState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordState.swift; sourceTree = "<group>"; };
+		B21E19C02A192B830014827B /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		B21E19C52A1A1EFB0014827B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B21E19C92A1A497E0014827B /* UIApplication+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Ext.swift"; sourceTree = "<group>"; };
+		B21E19CC2A1A87BC0014827B /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B21E19CE2A1A8A430014827B /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		B21E19D02A1A8B3F0014827B /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		B21E19D62A1A90B10014827B /* NSObject+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Ext.swift"; sourceTree = "<group>"; };
+		B21E19D82A1A92190014827B /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		B21E19DA2A1B68FE0014827B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B21E19DC2A1B6B020014827B /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		B21E19DE2A1B70530014827B /* ProductsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		B21E19E02A1BD0BE0014827B /* ProductsCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCellHeader.swift; sourceTree = "<group>"; };
+		B21E19E32A1BDC440014827B /* pear.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pear.jpeg; sourceTree = "<group>"; };
+		B21E19E42A1BDC440014827B /* plum.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plum.jpeg; sourceTree = "<group>"; };
+		B21E19E52A1BDC440014827B /* apple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpeg; sourceTree = "<group>"; };
+		B21E19E62A1BDC440014827B /* avocado.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avocado.jpeg; sourceTree = "<group>"; };
+		B21E19E72A1BDC440014827B /* cherry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cherry.jpeg; sourceTree = "<group>"; };
+		B21E19E82A1BDC440014827B /* pineapple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pineapple.jpeg; sourceTree = "<group>"; };
+		B21E19E92A1BDC440014827B /* banan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banan.jpeg; sourceTree = "<group>"; };
+		B21E19EA2A1BDC440014827B /* blueberry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueberry.jpeg; sourceTree = "<group>"; };
+		B21E19EB2A1BDC440014827B /* grape.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grape.jpeg; sourceTree = "<group>"; };
+		B21E19EC2A1BDC440014827B /* guava.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guava.jpeg; sourceTree = "<group>"; };
+		B21E19F82A1BE4320014827B /* radish.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radish.jpeg; sourceTree = "<group>"; };
+		B21E19F92A1BE4320014827B /* eggplant.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eggplant.jpeg; sourceTree = "<group>"; };
+		B21E19FA2A1BE4320014827B /* mushroom.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom.jpeg; sourceTree = "<group>"; };
+		B21E19FB2A1BE4320014827B /* cucumber.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cucumber.jpeg; sourceTree = "<group>"; };
+		B21E19FC2A1BE4320014827B /* carrot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrot.jpeg; sourceTree = "<group>"; };
+		B21E19FD2A1BE4320014827B /* artichoke.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artichoke.jpeg; sourceTree = "<group>"; };
+		B21E19FE2A1BE4320014827B /* tomato.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomato.jpeg; sourceTree = "<group>"; };
+		B21E19FF2A1BE4320014827B /* garlic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garlic.jpeg; sourceTree = "<group>"; };
+		B21E1A002A1BE4320014827B /* cabbage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabbage.jpeg; sourceTree = "<group>"; };
+		B21E1A012A1BE4320014827B /* potato.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potato.jpeg; sourceTree = "<group>"; };
+		B21E1A0D2A1C7FEE0014827B /* yogurt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yogurt.jpeg; sourceTree = "<group>"; };
+		B21E1A0E2A1C7FEE0014827B /* coconutmilk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coconutmilk.jpeg; sourceTree = "<group>"; };
+		B21E1A0F2A1C7FEE0014827B /* softcheese.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = softcheese.jpeg; sourceTree = "<group>"; };
+		B21E1A102A1C7FEE0014827B /* regularmilk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = regularmilk.jpeg; sourceTree = "<group>"; };
+		B21E1A112A1C7FEE0014827B /* regularcheese.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = regularcheese.jpeg; sourceTree = "<group>"; };
+		B21E1A122A1C7FEE0014827B /* almondmilk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = almondmilk.jpeg; sourceTree = "<group>"; };
+		B21E1A132A1C7FEE0014827B /* butter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = butter.jpeg; sourceTree = "<group>"; };
+		B21E1A142A1C7FEE0014827B /* ricemilk.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ricemilk.jpeg; sourceTree = "<group>"; };
+		B21E1A152A1C7FEE0014827B /* curd.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = curd.jpeg; sourceTree = "<group>"; };
+		B21E1A162A1C7FEE0014827B /* sourcream.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sourcream.jpeg; sourceTree = "<group>"; };
+		B21E1A212A1C886E0014827B /* UITabBarController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Ext.swift"; sourceTree = "<group>"; };
+		B21E1A252A1C8A5E0014827B /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		B21E1A272A1CB80D0014827B /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		B2977EE92A1D25D70052EAE8 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B219D4AA2A177F8600E622D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B219D4C62A17849C00E622D8 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B219D4A42A177F8600E622D8 = {
+			isa = PBXGroup;
+			children = (
+				B219D4AF2A177F8600E622D8 /* Arbuz Delivery */,
+				B219D4AE2A177F8600E622D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B219D4AE2A177F8600E622D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4AD2A177F8600E622D8 /* Arbuz Delivery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B219D4AF2A177F8600E622D8 /* Arbuz Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19C22A1A1E3F0014827B /* App */,
+				B21E19C32A1A1E5D0014827B /* Resources */,
+				B21E19C42A1A1ED50014827B /* Models */,
+				B219D4CA2A17A6F600E622D8 /* Screens */,
+				B219D4D62A17C32F00E622D8 /* Extensions */,
+			);
+			path = "Arbuz Delivery";
+			sourceTree = "<group>";
+		};
+		B219D4CA2A17A6F600E622D8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4CB2A17A70700E622D8 /* Login */,
+				B219D4CC2A17A71000E622D8 /* Registration */,
+				B21E19CB2A1A87A00014827B /* Onboarding */,
+				B21E19BF2A192B600014827B /* Products */,
+				B21E1A242A1C8A420014827B /* Cart */,
+				B2977EE82A1D25BB0052EAE8 /* Order */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B219D4CB2A17A70700E622D8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4B42A177F8600E622D8 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B219D4CC2A17A71000E622D8 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4CF2A17A77100E622D8 /* NameRegister */,
+				B219D4CD2A17A71A00E622D8 /* UsernameRegister */,
+				B219D4CE2A17A75D00E622D8 /* PasswordRegister */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		B219D4CD2A17A71A00E622D8 /* UsernameRegister */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19B32A17C9F00014827B /* UsernameRegisterViewController.swift */,
+			);
+			path = UsernameRegister;
+			sourceTree = "<group>";
+		};
+		B219D4CE2A17A75D00E622D8 /* PasswordRegister */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19B52A17E0E70014827B /* PasswordRegisterViewController.swift */,
+				B21E19B72A17E4EC0014827B /* PasswordValidator.swift */,
+				B21E19BD2A18F2780014827B /* PasswordState.swift */,
+			);
+			path = PasswordRegister;
+			sourceTree = "<group>";
+		};
+		B219D4CF2A17A77100E622D8 /* NameRegister */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4D42A17AA2700E622D8 /* NameRegisterViewController.swift */,
+			);
+			path = NameRegister;
+			sourceTree = "<group>";
+		};
+		B219D4D62A17C32F00E622D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4C82A17860E00E622D8 /* UITextField+Ext.swift */,
+				B21E19B12A17C3A80014827B /* UIViewController+Ext.swift */,
+				B21E19BB2A18EC0A0014827B /* UIButton+Ext.swift */,
+				B21E19C92A1A497E0014827B /* UIApplication+Ext.swift */,
+				B21E19D62A1A90B10014827B /* NSObject+Ext.swift */,
+				B21E1A212A1C886E0014827B /* UITabBarController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B21E19BF2A192B600014827B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19C02A192B830014827B /* ProductsViewController.swift */,
+				B21E19DC2A1B6B020014827B /* ProductsModel.swift */,
+				B21E19DE2A1B70530014827B /* ProductsCell.swift */,
+				B21E19E02A1BD0BE0014827B /* ProductsCellHeader.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		B21E19C22A1A1E3F0014827B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4B02A177F8600E622D8 /* AppDelegate.swift */,
+				B219D4B22A177F8600E622D8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B21E19C32A1A1E5D0014827B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B219D4B92A177F8C00E622D8 /* Assets.xcassets */,
+				B219D4BB2A177F8C00E622D8 /* LaunchScreen.storyboard */,
+				B219D4BE2A177F8C00E622D8 /* Info.plist */,
+				B21E1A0C2A1C7FEE0014827B /* dairy products */,
+				B21E19E22A1BDC440014827B /* fruits */,
+				B21E19F72A1BE4320014827B /* vegetables */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B21E19C42A1A1ED50014827B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19C52A1A1EFB0014827B /* User.swift */,
+				B21E19CE2A1A8A430014827B /* Onboarding.swift */,
+				B21E19DA2A1B68FE0014827B /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B21E19CB2A1A87A00014827B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19CC2A1A87BC0014827B /* OnboardingViewController.swift */,
+				B21E19D02A1A8B3F0014827B /* OnboardingModel.swift */,
+				B21E19D82A1A92190014827B /* OnboardingCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B21E19E22A1BDC440014827B /* fruits */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19E32A1BDC440014827B /* pear.jpeg */,
+				B21E19E42A1BDC440014827B /* plum.jpeg */,
+				B21E19E52A1BDC440014827B /* apple.jpeg */,
+				B21E19E62A1BDC440014827B /* avocado.jpeg */,
+				B21E19E72A1BDC440014827B /* cherry.jpeg */,
+				B21E19E82A1BDC440014827B /* pineapple.jpeg */,
+				B21E19E92A1BDC440014827B /* banan.jpeg */,
+				B21E19EA2A1BDC440014827B /* blueberry.jpeg */,
+				B21E19EB2A1BDC440014827B /* grape.jpeg */,
+				B21E19EC2A1BDC440014827B /* guava.jpeg */,
+			);
+			path = fruits;
+			sourceTree = "<group>";
+		};
+		B21E19F72A1BE4320014827B /* vegetables */ = {
+			isa = PBXGroup;
+			children = (
+				B21E19F82A1BE4320014827B /* radish.jpeg */,
+				B21E19F92A1BE4320014827B /* eggplant.jpeg */,
+				B21E19FA2A1BE4320014827B /* mushroom.jpeg */,
+				B21E19FB2A1BE4320014827B /* cucumber.jpeg */,
+				B21E19FC2A1BE4320014827B /* carrot.jpeg */,
+				B21E19FD2A1BE4320014827B /* artichoke.jpeg */,
+				B21E19FE2A1BE4320014827B /* tomato.jpeg */,
+				B21E19FF2A1BE4320014827B /* garlic.jpeg */,
+				B21E1A002A1BE4320014827B /* cabbage.jpeg */,
+				B21E1A012A1BE4320014827B /* potato.jpeg */,
+			);
+			path = vegetables;
+			sourceTree = "<group>";
+		};
+		B21E1A0C2A1C7FEE0014827B /* dairy products */ = {
+			isa = PBXGroup;
+			children = (
+				B21E1A0D2A1C7FEE0014827B /* yogurt.jpeg */,
+				B21E1A0E2A1C7FEE0014827B /* coconutmilk.jpeg */,
+				B21E1A0F2A1C7FEE0014827B /* softcheese.jpeg */,
+				B21E1A102A1C7FEE0014827B /* regularmilk.jpeg */,
+				B21E1A112A1C7FEE0014827B /* regularcheese.jpeg */,
+				B21E1A122A1C7FEE0014827B /* almondmilk.jpeg */,
+				B21E1A132A1C7FEE0014827B /* butter.jpeg */,
+				B21E1A142A1C7FEE0014827B /* ricemilk.jpeg */,
+				B21E1A152A1C7FEE0014827B /* curd.jpeg */,
+				B21E1A162A1C7FEE0014827B /* sourcream.jpeg */,
+			);
+			path = "dairy products";
+			sourceTree = "<group>";
+		};
+		B21E1A242A1C8A420014827B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B21E1A252A1C8A5E0014827B /* CartViewController.swift */,
+				B21E1A272A1CB80D0014827B /* CartCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B2977EE82A1D25BB0052EAE8 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				B2977EE92A1D25D70052EAE8 /* OrderViewController.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B219D4AC2A177F8600E622D8 /* Arbuz Delivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B219D4C12A177F8C00E622D8 /* Build configuration list for PBXNativeTarget "Arbuz Delivery" */;
+			buildPhases = (
+				B219D4A92A177F8600E622D8 /* Sources */,
+				B219D4AA2A177F8600E622D8 /* Frameworks */,
+				B219D4AB2A177F8600E622D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arbuz Delivery";
+			packageProductDependencies = (
+				B219D4C52A17849C00E622D8 /* SnapKit */,
+			);
+			productName = "Arbuz Delivery";
+			productReference = B219D4AD2A177F8600E622D8 /* Arbuz Delivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B219D4A52A177F8600E622D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B219D4AC2A177F8600E622D8 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B219D4A82A177F8600E622D8 /* Build configuration list for PBXProject "Arbuz Delivery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B219D4A42A177F8600E622D8;
+			packageReferences = (
+				B219D4C42A17849C00E622D8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = B219D4AE2A177F8600E622D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B219D4AC2A177F8600E622D8 /* Arbuz Delivery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B219D4AB2A177F8600E622D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21E19F42A1BDC440014827B /* blueberry.jpeg in Resources */,
+				B21E1A1A2A1C7FEF0014827B /* regularmilk.jpeg in Resources */,
+				B21E1A1B2A1C7FEF0014827B /* regularcheese.jpeg in Resources */,
+				B21E1A1C2A1C7FEF0014827B /* almondmilk.jpeg in Resources */,
+				B21E1A032A1BE4320014827B /* eggplant.jpeg in Resources */,
+				B21E1A192A1C7FEF0014827B /* softcheese.jpeg in Resources */,
+				B21E19F22A1BDC440014827B /* pineapple.jpeg in Resources */,
+				B21E19F62A1BDC440014827B /* guava.jpeg in Resources */,
+				B21E1A022A1BE4320014827B /* radish.jpeg in Resources */,
+				B21E1A0A2A1BE4320014827B /* cabbage.jpeg in Resources */,
+				B219D4BD2A177F8C00E622D8 /* LaunchScreen.storyboard in Resources */,
+				B21E1A082A1BE4320014827B /* tomato.jpeg in Resources */,
+				B21E1A1F2A1C7FEF0014827B /* curd.jpeg in Resources */,
+				B21E1A042A1BE4320014827B /* mushroom.jpeg in Resources */,
+				B21E1A1E2A1C7FEF0014827B /* ricemilk.jpeg in Resources */,
+				B21E1A052A1BE4320014827B /* cucumber.jpeg in Resources */,
+				B21E19F32A1BDC440014827B /* banan.jpeg in Resources */,
+				B219D4BA2A177F8C00E622D8 /* Assets.xcassets in Resources */,
+				B21E1A182A1C7FEF0014827B /* coconutmilk.jpeg in Resources */,
+				B21E1A202A1C7FEF0014827B /* sourcream.jpeg in Resources */,
+				B21E1A0B2A1BE4320014827B /* potato.jpeg in Resources */,
+				B21E1A172A1C7FEF0014827B /* yogurt.jpeg in Resources */,
+				B21E1A1D2A1C7FEF0014827B /* butter.jpeg in Resources */,
+				B21E19ED2A1BDC440014827B /* pear.jpeg in Resources */,
+				B21E19EF2A1BDC440014827B /* apple.jpeg in Resources */,
+				B21E1A072A1BE4320014827B /* artichoke.jpeg in Resources */,
+				B21E19EE2A1BDC440014827B /* plum.jpeg in Resources */,
+				B21E19F02A1BDC440014827B /* avocado.jpeg in Resources */,
+				B21E19F52A1BDC440014827B /* grape.jpeg in Resources */,
+				B21E1A092A1BE4320014827B /* garlic.jpeg in Resources */,
+				B21E1A062A1BE4320014827B /* carrot.jpeg in Resources */,
+				B21E19F12A1BDC440014827B /* cherry.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B219D4A92A177F8600E622D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B219D4B52A177F8600E622D8 /* LoginViewController.swift in Sources */,
+				B21E19D72A1A90B10014827B /* NSObject+Ext.swift in Sources */,
+				B21E19DF2A1B70530014827B /* ProductsCell.swift in Sources */,
+				B219D4B12A177F8600E622D8 /* AppDelegate.swift in Sources */,
+				B21E19C12A192B830014827B /* ProductsViewController.swift in Sources */,
+				B21E1A262A1C8A5E0014827B /* CartViewController.swift in Sources */,
+				B21E19B22A17C3A80014827B /* UIViewController+Ext.swift in Sources */,
+				B21E19CF2A1A8A430014827B /* Onboarding.swift in Sources */,
+				B21E19E12A1BD0BF0014827B /* ProductsCellHeader.swift in Sources */,
+				B21E19B42A17C9F00014827B /* UsernameRegisterViewController.swift in Sources */,
+				B21E19D92A1A92190014827B /* OnboardingCell.swift in Sources */,
+				B219D4B32A177F8600E622D8 /* SceneDelegate.swift in Sources */,
+				B21E19CA2A1A497F0014827B /* UIApplication+Ext.swift in Sources */,
+				B219D4C92A17860E00E622D8 /* UITextField+Ext.swift in Sources */,
+				B21E19C62A1A1EFB0014827B /* User.swift in Sources */,
+				B21E1A282A1CB80D0014827B /* CartCell.swift in Sources */,
+				B21E19B62A17E0E70014827B /* PasswordRegisterViewController.swift in Sources */,
+				B21E19CD2A1A87BC0014827B /* OnboardingViewController.swift in Sources */,
+				B21E19BE2A18F2780014827B /* PasswordState.swift in Sources */,
+				B21E19D12A1A8B3F0014827B /* OnboardingModel.swift in Sources */,
+				B21E19B82A17E4EC0014827B /* PasswordValidator.swift in Sources */,
+				B21E19BC2A18EC0A0014827B /* UIButton+Ext.swift in Sources */,
+				B219D4D52A17AA2700E622D8 /* NameRegisterViewController.swift in Sources */,
+				B21E19DB2A1B68FE0014827B /* Product.swift in Sources */,
+				B21E19DD2A1B6B020014827B /* ProductsModel.swift in Sources */,
+				B21E1A222A1C886E0014827B /* UITabBarController+Ext.swift in Sources */,
+				B2977EEA2A1D25D70052EAE8 /* OrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B219D4BB2A177F8C00E622D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B219D4BC2A177F8C00E622D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B219D4BF2A177F8C00E622D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B219D4C02A177F8C00E622D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B219D4C22A177F8C00E622D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APV84TNMCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Arbuz Delivery/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bauyrzhanabdi.Arbuz-Delivery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B219D4C32A177F8C00E622D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APV84TNMCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Arbuz Delivery/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bauyrzhanabdi.Arbuz-Delivery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B219D4A82A177F8600E622D8 /* Build configuration list for PBXProject "Arbuz Delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B219D4BF2A177F8C00E622D8 /* Debug */,
+				B219D4C02A177F8C00E622D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B219D4C12A177F8C00E622D8 /* Build configuration list for PBXNativeTarget "Arbuz Delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B219D4C22A177F8C00E622D8 /* Debug */,
+				B219D4C32A177F8C00E622D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B219D4C42A17849C00E622D8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B219D4C52A17849C00E622D8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B219D4C42A17849C00E622D8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B219D4A52A177F8600E622D8 /* Project object */;
+}

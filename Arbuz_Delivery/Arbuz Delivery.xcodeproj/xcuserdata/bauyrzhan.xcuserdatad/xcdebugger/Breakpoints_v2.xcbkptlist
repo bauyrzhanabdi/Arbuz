@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3BFFF231-02AC-4CFB-8682-E4E8BEA29A79"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAAAB87F-7B41-44B9-99AA-358D4BFA69BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AAAAB87F-7B41-44B9-99AA-358D4BFA69BA - cb50a394cec3ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "AAAAB87F-7B41-44B9-99AA-358D4BFA69BA - cb50a394cec3ea51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "113">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0C76C96-2185-4B4D-92AF-9C90BE447923"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0C76C96-2185-4B4D-92AF-9C90BE447923 - cb50a394cec3ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "E0C76C96-2185-4B4D-92AF-9C90BE447923 - cb50a394cec3ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "E0C76C96-2185-4B4D-92AF-9C90BE447923 - cb50a394cec3ea51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "E0C76C96-2185-4B4D-92AF-9C90BE447923 - cb50a394cec3ea51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "174">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB4E5D6D-2068-4405-A52C-6C40ED11D840"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB4E5D6D-2068-4405-A52C-6C40ED11D840 - cb50a394cec3ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "CB4E5D6D-2068-4405-A52C-6C40ED11D840 - cb50a394cec3ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "CB4E5D6D-2068-4405-A52C-6C40ED11D840 - cb50a394cec3ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "362">
+               </Location>
+               <Location
+                  uuid = "CB4E5D6D-2068-4405-A52C-6C40ED11D840 - cb50a394cec3ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "438">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE30A30F-70D2-40A1-AC0B-513A4AA162B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE30A30F-70D2-40A1-AC0B-513A4AA162B0 - cb50a394cec3edaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  uuid = "BE30A30F-70D2-40A1-AC0B-513A4AA162B0 - cb50a394cec3edd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "BE30A30F-70D2-40A1-AC0B-513A4AA162B0 - cb50a394cec3edd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "699">
+               </Location>
+               <Location
+                  uuid = "BE30A30F-70D2-40A1-AC0B-513A4AA162B0 - cb50a394cec3edd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "808">
+               </Location>
+               <Location
+                  uuid = "BE30A30F-70D2-40A1-AC0B-513A4AA162B0 - cb50a394cec3edd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "192"
+                  endingLineNumber = "192"
+                  offsetFromSymbolStart = "850">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDE05069-D07E-4ECD-86AB-D15ED2ADCD26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "getUser(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EB0B715-049E-4C26-858F-9688E830F912"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "getUser(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19A15E90-B4E5-4D21-9488-5E267D7A5B03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
+            landmarkName = "getUser(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D9CFCA3-CBE6-4E37-BAC7-3C31D53571C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "getUser(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F4EFC65-1020-4BA3-95CB-AC9ED06B8878"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F4EFC65-1020-4BA3-95CB-AC9ED06B8878 - cb50a394cec3edaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "710">
+               </Location>
+               <Location
+                  uuid = "4F4EFC65-1020-4BA3-95CB-AC9ED06B8878 - cb50a394cec3edaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "714">
+               </Location>
+               <Location
+                  uuid = "4F4EFC65-1020-4BA3-95CB-AC9ED06B8878 - cb50a394cec3edaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "997">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1F7FDE4-8040-4D00-842B-0277B8930D48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1F7FDE4-8040-4D00-842B-0277B8930D48 - cb50a394cec3ed68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "878">
+               </Location>
+               <Location
+                  uuid = "A1F7FDE4-8040-4D00-842B-0277B8930D48 - cb50a394cec3ed68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "1195">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80DAC0B5-03CE-425B-BB20-2B0844699027"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "loginButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80DAC0B5-03CE-425B-BB20-2B0844699027 - cb50a394cec3ed8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "746">
+               </Location>
+               <Location
+                  uuid = "80DAC0B5-03CE-425B-BB20-2B0844699027 - cb50a394cec3ed8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.LoginViewController.loginButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "1038">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "435F780B-F70A-4935-942E-43A226C3D2F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "finishButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "435F780B-F70A-4935-942E-43A226C3D2F4 - 78275e0b4a931dab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Arbuz_Delivery.PasswordRegisterViewController.nextButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  uuid = "435F780B-F70A-4935-942E-43A226C3D2F4 - 1d3be963570bfb34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.PasswordRegisterViewController.nextButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "693">
+               </Location>
+               <Location
+                  uuid = "435F780B-F70A-4935-942E-43A226C3D2F4 - 78275e0b4a931dab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Arbuz_Delivery.PasswordRegisterViewController.nextButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BC6FCF8-7004-4528-92B7-1A1400E5ABE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "finishButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BC6FCF8-7004-4528-92B7-1A1400E5ABE9 - 78275e0b4a931d88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Arbuz_Delivery.PasswordRegisterViewController.nextButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "232"
+                  endingLineNumber = "232"
+                  offsetFromSymbolStart = "354">
+               </Location>
+               <Location
+                  uuid = "7BC6FCF8-7004-4528-92B7-1A1400E5ABE9 - 78275e0b4a931d88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Arbuz_Delivery.PasswordRegisterViewController.nextButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "232"
+                  endingLineNumber = "232"
+                  offsetFromSymbolStart = "47">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D3CF886-378B-42E1-A926-A75946B6628C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D3CF886-378B-42E1-A926-A75946B6628C - 33878e3d9bea0f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.PasswordRegisterViewController.showAlert(() -&gt; ()) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "417">
+               </Location>
+               <Location
+                  uuid = "4D3CF886-378B-42E1-A926-A75946B6628C - 33878e3d9bea0f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.PasswordRegisterViewController.showAlert(() -&gt; ()) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "804">
+               </Location>
+               <Location
+                  uuid = "4D3CF886-378B-42E1-A926-A75946B6628C - 33878e3d9bea0f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.PasswordRegisterViewController.showAlert(() -&gt; ()) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA0993D5-2E4F-4824-B888-B2F257D9085C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "330"
+            endingLineNumber = "330"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "141B6B3F-EC73-4FAA-8265-280D7F76CA96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "097FC5D6-4E76-4DC0-9E28-E47280FDB706"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9B1E44E-86D1-4EC7-838F-928F51F17BB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEA5434D-FD16-49BF-99F3-CDACDD0D4DE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "774BC22D-22F4-4678-86CC-7C40B1638C24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48E9159D-3BEC-4D65-B77A-AFA2F08B0349"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "779EC71D-43C3-4528-8B85-4F1156B17517"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
+            landmarkName = "showAlert(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED5F46E3-5FD2-4BB7-9F8E-E8D655687B44"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "finishButtonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ED5F46E3-5FD2-4BB7-9F8E-E8D655687B44 - 1d3be963570bfbd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.PasswordRegisterViewController.nextButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "366">
+               </Location>
+               <Location
+                  uuid = "ED5F46E3-5FD2-4BB7-9F8E-E8D655687B44 - 1d3be963570bfbb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Arbuz_Delivery.PasswordRegisterViewController.nextButtonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "Arbuz Delivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bauyrzhan/Desktop/Arbuz%20Delivery/Arbuz%20Delivery/Screens/Registration/PasswordRegister/PasswordRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "379">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9143E6A-B527-4311-B6F8-D4625F647F6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "controlButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDC28DB1-AC3C-4634-B03F-9BF6CBBB4F15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Arbuz Delivery/Screens/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "controlButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
